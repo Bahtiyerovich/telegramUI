@@ -7,7 +7,7 @@ class TelegramText extends StatelessWidget {
   double size;
   double height;
   FontWeight? fontWeight = WeightConst.kNormalWeight;
-  // TextAlign? textAlign = TextAlign.center;
+  TextAlign? textAlign = TextAlign.center;
 
   TelegramText({
     Key? key,
@@ -16,7 +16,7 @@ class TelegramText extends StatelessWidget {
     this.size = 0,
     this.height = 1.2,
     this.fontWeight,
-    // this.textAlign,
+    this.textAlign,
   }) : super(key: key);
 
   @override

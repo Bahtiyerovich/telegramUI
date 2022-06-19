@@ -30,6 +30,7 @@ class ColorsConst {
   // Telegram Chat (4 - Page)
   static Color color787878 = const Color(0xff787878);
   static Color colorAEAEB2 = const Color(0xffAEAEB2);
+  static Color color545458 = const Color(0xff545458);
 
   // Telegram Info (5 - Page)
   static Color color00B12C = const Color(0xff00B12C);
@@ -42,4 +43,6 @@ class ColorsConst {
   // Telegram Notifications
   static Color colorF6F6F6 = const Color(0xfff6f6f6);
 
+// Telegram profile
+  static Color colorC7C7CC = const Color(0xffc7c7cc);
 }

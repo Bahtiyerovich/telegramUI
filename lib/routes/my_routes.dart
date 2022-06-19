@@ -3,7 +3,8 @@ import 'package:telegram/view/auth/auth_view.dart';
 import 'package:telegram/view/cart/cart_view.dart';
 import 'package:telegram/view/cart/chats/chat_view.dart';
 import 'package:telegram/view/pages/info/info_view.dart';
-import 'package:telegram/view/pages/notifications/notifications_view.dart';
+import 'package:telegram/view/pages/notifications/view/notifications_view.dart';
+import 'package:telegram/view/pages/privacy_and_security/privacy_and_security_view.dart';
 
 class MyRoutes {
   static final MyRoutes _instanse = MyRoutes.init();
@@ -23,8 +24,8 @@ class MyRoutes {
         return MaterialPageRoute(builder: (_) => const InfoView());
       case '/notifications':
         return MaterialPageRoute(builder: (_) => const NotificationsView());
-      // case '/auth':
-      //   return MaterialPageRoute(builder: (_) => const AuthView());
+      case '/privacyAndSecurityView':
+        return MaterialPageRoute(builder: (_) => PrivacyAndSecurityView());
       // case '/auth':
       //   return MaterialPageRoute(builder: (_) => const AuthView());
     }
