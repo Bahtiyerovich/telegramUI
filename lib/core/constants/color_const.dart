@@ -45,4 +45,7 @@ class ColorsConst {
 
 // Telegram profile
   static Color colorC7C7CC = const Color(0xffc7c7cc);
+  //Telegram contact
+
+
 }
