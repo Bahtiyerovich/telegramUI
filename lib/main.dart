@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
 
       theme: ThemeData(),
       onGenerateRoute: MyRoutes.instanse.onGenerate,
-      initialRoute: '/privacyAndSecurityView',
+      initialRoute: '/auth',
       
     );
   }

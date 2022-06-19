@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:telegram/core/constants/color_const.dart';
+import 'package:telegram/core/extensions/context.dart';
 import 'package:telegram/core/widgets/telgrm_text_w.dart';
 
 class CallsView extends StatelessWidget {
@@ -19,7 +20,7 @@ class CallsView extends StatelessWidget {
               InkWell(
                 child: ListTile(
                   leading: SizedBox(
-                    width: 80,
+                    width: 60,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -63,7 +64,7 @@ class CallsView extends StatelessWidget {
               Divider(
                 thickness: 1,
                 height: 0,
-                indent: MediaQuery.of(context).size.width * 0.28,
+                indent: context.w * 0.28,
               ),
             ],
           ),
