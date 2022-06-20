@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:telegram/core/constants/font_const.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class TelegramText extends StatelessWidget {
   Color? color;
@@ -22,7 +23,7 @@ class TelegramText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      text,
+      text.tr(),
       // textAlign: textAlign ?? TextAlign.start,
       style: TextStyle(
         color: color,

@@ -26,7 +26,7 @@ class _NotificationsViewState extends State<NotificationsView> {
         backgroundColor: ColorsConst.colorF6F6F6,
         elevation: 0.0,
         title: TelegramText(
-          text: 'Notifications',
+          text: 'Notifications'.tr(),
           size: FontConst.kMediumFont,
           fontWeight: WeightConst.kMediumWeight,
           color: ColorsConst.colorBlack,
@@ -43,7 +43,7 @@ class _NotificationsViewState extends State<NotificationsView> {
                 bottom: context.h * 0.01,
               ),
               child: TelegramText(
-                text: 'SHOW NOTIFICATIONS FROM',
+                text: 'Show_notifications_from'.tr(),
                 size: FontConst.kSmallFont,
                 fontWeight: WeightConst.kSmallWeight,
                 // textAlign: TextAlign.start,
@@ -52,7 +52,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             SwitchListTile.adaptive(
                 tileColor: ColorsConst.colorWhite,
                 title: TelegramText(
-                  text: 'All Accounts',
+                  text: 'All_Accounts'.tr(),
                   color: Colors.black,
                   size: FontConst.kMediumFont,
                   fontWeight: WeightConst.kSmallWeight,
@@ -73,7 +73,7 @@ class _NotificationsViewState extends State<NotificationsView> {
               ),
               child: TelegramText(
                 text:
-                    'Turn this off if you want to receive notifications only from your active account.',
+                    'Turn_t_o_i_y_w_t_r_n_o_f_y_a_a.'.tr(),
                 size: FontConst.kSmallFont,
                 fontWeight: WeightConst.kSmallWeight,
                 // textAlign: TextAlign.start,
@@ -87,7 +87,7 @@ class _NotificationsViewState extends State<NotificationsView> {
                 right: context.w * 0.02,
               ),
               child: TelegramText(
-                text: 'MESSAGE NOTIFICATIONS',
+                text: 'Message_notifications'.tr(),
                 size: FontConst.kSmallFont,
                 fontWeight: WeightConst.kSmallWeight,
                 // textAlign: TextAlign.start,
@@ -96,7 +96,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             SwitchListTile.adaptive(
                 tileColor: ColorsConst.colorWhite,
                 title: TelegramText(
-                  text: 'Show Notifications',
+                  text: 'Show_Notifications'.tr(),
                   color: Colors.black,
                   size: FontConst.kMediumFont,
                   fontWeight: WeightConst.kSmallWeight,
@@ -111,7 +111,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             SwitchListTile.adaptive(
                 tileColor: ColorsConst.colorWhite,
                 title: TelegramText(
-                  text: 'Message Preview',
+                  text: 'Message_Preview'.tr(),
                   color: Colors.black,
                   size: FontConst.kMediumFont,
                   fontWeight: WeightConst.kSmallWeight,
@@ -126,13 +126,13 @@ class _NotificationsViewState extends State<NotificationsView> {
             ListTile(
               tileColor: ColorsConst.colorWhite,
               leading: TelegramText(
-                text: 'Sound',
+                text: 'Sound'.tr(),
                 color: Colors.black,
                 size: FontConst.kMediumFont,
                 fontWeight: WeightConst.kSmallWeight,
               ),
               trailing: TelegramText(
-                text: 'None',
+                text: 'None'.tr(),
                 color: Colors.black.withOpacity(0.6),
                 size: FontConst.kMediumFont,
                 fontWeight: WeightConst.kSmallWeight,
@@ -141,7 +141,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             ListTile(
               tileColor: ColorsConst.colorWhite,
               leading: TelegramText(
-                text: 'Exceptions',
+                text: 'Exceptions'.tr(),
                 color: Colors.black,
                 size: FontConst.kMediumFont,
                 fontWeight: WeightConst.kSmallWeight,
@@ -162,7 +162,7 @@ class _NotificationsViewState extends State<NotificationsView> {
                 right: context.w * 0.02,
               ),
               child: TelegramText(
-                text: 'Set custom notifications for specific users.',
+                text: 'Set_custom_notifications_for_specific_users'.tr(),
                 size: FontConst.kSmallFont,
                 fontWeight: WeightConst.kSmallWeight,
                 // textAlign: TextAlign.start,
@@ -177,7 +177,7 @@ class _NotificationsViewState extends State<NotificationsView> {
                 right: context.w * 0.02,
               ),
               child: TelegramText(
-                text: 'GROUP NOTIFICATIONS',
+                text: 'Group_notifications'.tr(),
                 size: FontConst.kSmallFont,
                 fontWeight: WeightConst.kSmallWeight,
                 // textAlign: TextAlign.start,
@@ -187,7 +187,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             SwitchListTile.adaptive(
                 tileColor: ColorsConst.colorWhite,
                 title: TelegramText(
-                  text: 'Show Notifications',
+                  text: 'Show_Notifications'.tr(),
                   color: Colors.black,
                   size: FontConst.kMediumFont,
                   fontWeight: WeightConst.kSmallWeight,
@@ -202,7 +202,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             SwitchListTile.adaptive(
                 tileColor: ColorsConst.colorWhite,
                 title: TelegramText(
-                  text: 'Message Preview',
+                  text: 'Message_Preview'.tr(),
                   color: Colors.black,
                   size: FontConst.kMediumFont,
                   fontWeight: WeightConst.kSmallWeight,
@@ -217,13 +217,13 @@ class _NotificationsViewState extends State<NotificationsView> {
             ListTile(
               tileColor: ColorsConst.colorWhite,
               leading: TelegramText(
-                text: 'Sound',
+                text: 'Sound'.tr(),
                 color: Colors.black,
                 size: FontConst.kMediumFont,
                 fontWeight: WeightConst.kSmallWeight,
               ),
               trailing: TelegramText(
-                text: 'None',
+                text: 'None'.tr(),
                 color: Colors.black.withOpacity(0.6),
                 size: FontConst.kMediumFont,
                 fontWeight: WeightConst.kSmallWeight,
@@ -232,7 +232,7 @@ class _NotificationsViewState extends State<NotificationsView> {
             ListTile(
               tileColor: ColorsConst.colorWhite,
               leading: TelegramText(
-                text: 'Exceptions',
+                text: 'Exceptions'.tr(),
                 color: Colors.black,
                 size: FontConst.kMediumFont,
                 fontWeight: WeightConst.kSmallWeight,
@@ -252,25 +252,12 @@ class _NotificationsViewState extends State<NotificationsView> {
                 right: context.w * 0.05,
               ),
               child: TelegramText(
-              text: 'Set custom notificaions for specific groups.',
+              text: 'Set_custom_notificaions_for_specific_groups'.tr(),
               size: FontConst.kSmallFont,
               // textAlign: TextAlign.start,
               fontWeight: WeightConst.kSmallWeight,
             ),
             ),
-
-            //example
-            // TextButton(
-            //     onPressed: () {
-            //       context.setLocale(Locale('uz', 'UZ'));
-            //     },
-            //     child: Text('Uz')),
-            // TextButton(
-            //     onPressed: () {
-            //       context.setLocale(Locale('en', 'EN'));
-            //     },
-            //     child: Text('En')),
-            // Text('l_s_j_n'.tr())
           ],
         ),
       ),

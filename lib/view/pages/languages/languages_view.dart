@@ -4,6 +4,7 @@ import 'package:telegram/core/constants/font_const.dart';
 import 'package:telegram/core/constants/radius_const.dart';
 import 'package:telegram/core/extensions/context.dart';
 import 'package:telegram/core/widgets/telgrm_text_w.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class LanguagesView extends StatelessWidget {
   LanguagesView({Key? key}) : super(key: key);
@@ -21,7 +22,7 @@ class LanguagesView extends StatelessWidget {
     "Korean",
     "Malay",
     "Persian",
-    "Portuguese",
+    "Portuguese"
   ];
 
   List<String> langList = [
@@ -74,9 +75,7 @@ class LanguagesView extends StatelessWidget {
                 enabledBorder: OutlineInputBorder(
                   borderRadius:
                       BorderRadius.circular(RadiusConst.kExtraSmallRadius),
-                  // borderSide: BorderSide(
-                  //   color: ColorsConst.color767680_12,
-                  // ),
+                 
                 ),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(
