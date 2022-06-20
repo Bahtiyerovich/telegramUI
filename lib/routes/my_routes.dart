@@ -8,6 +8,7 @@ import 'package:telegram/view/pages/info/info_view.dart';
 import 'package:telegram/view/pages/languages/languages_view.dart';
 import 'package:telegram/view/pages/notifications/view/notifications_view.dart';
 import 'package:telegram/view/pages/privacy_and_security/privacy_and_security_view.dart';
+import 'package:telegram/view/pages/profiles/profiles_view.dart';
 
 class MyRoutes {
   static final MyRoutes _instanse = MyRoutes.init();
@@ -35,6 +36,8 @@ class MyRoutes {
         return MaterialPageRoute(builder: (_) => const ApperanceView());
       case '/language':
         return MaterialPageRoute(builder: (_) => LanguagesView());
+      case '/profile':
+        return MaterialPageRoute(builder: (_) => ProfileView());
     }
   }
 }

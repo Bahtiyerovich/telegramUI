@@ -24,7 +24,6 @@ class TelegramText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text.tr(),
-      // textAlign: textAlign ?? TextAlign.start,
       style: TextStyle(
         color: color,
         fontFamily: 'SFProText',
