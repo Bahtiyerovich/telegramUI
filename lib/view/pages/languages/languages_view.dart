@@ -75,7 +75,6 @@ class LanguagesView extends StatelessWidget {
                 enabledBorder: OutlineInputBorder(
                   borderRadius:
                       BorderRadius.circular(RadiusConst.kExtraSmallRadius),
-                 
                 ),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(
@@ -99,7 +98,11 @@ class LanguagesView extends StatelessWidget {
             child: ListView.builder(
                 itemCount: langEngList.length,
                 itemBuilder: (BuildContext context, int index) {
-                  return Card(
+                  return InkWell(
+                    onTap: () {
+                      context.setLocale(Locale("en","EN"));
+                    },
+                      child: Card(
                     child: ListTile(
                       tileColor: ColorsConst.colorWhite,
                       title: TelegramText(
@@ -112,7 +115,7 @@ class LanguagesView extends StatelessWidget {
                         size: FontConst.kMediumFont,
                       ),
                     ),
-                  );
+                  ));
                 }),
           ),
         ],

@@ -66,21 +66,24 @@ class SettingsView extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(top: 10),
-                    child: _inkwell("settingsSaved", "Saved Messages", () {}),
+                    child: _inkwell("settingsSaved", "Languages", () {
+                    Navigator.pushNamed(context, '/language');
+
+                    }),
                   ),
                   _divider(context),
                   _inkwell("settingsCall", "Recent Calls", () {}),
                   _divider(context),
                   _inkwell("settingsStikers", "Stickers", () {
-                    Navigator.pushNamed(context, '/stickers');
+                    Navigator.pushNamed(context, '/sticker');
                   }),
                 ],
               ),
             ),
-            SizedBox(height: MediaQuery.of(context).size.height * 0.048),
+            SizedBox(height: context.h * 0.048),
             _container(
               context,
-              MediaQuery.of(context).size.height * 0.23,
+              context.h * 0.23,
               Column(
                 children: [
                   Padding(
